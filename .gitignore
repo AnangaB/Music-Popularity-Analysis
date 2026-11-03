@@ -1,0 +1,8 @@
+venv/
+.DS_Store
+__pycache__/
+.idea
+.ipynb_checkpoints/
+final_project/test_file.py
+backups
+data/**
