@@ -1,4 +1,6 @@
 ﻿# Music Popularity Analysis
+This project looks at what makes a song popular, using a Spotify songs dataset. Each track has audio features such as danceability, energy, loudness, tempo and valence, plus lyrics and playlist metadata. After exploratory data analysis and preprocessing, track popularity is grouped into two classes, low (0–50) and high (51–100). We then apply data mining techniques to this dataset: clustering with KMeans and DBSCAN, outlier detection with Isolation Forest and Local Outlier Factor, feature selection with Recursive Feature Elimination, and classification with tuned Random Forest and SVM models that predict whether a song will be popular.
+
 
 ## Main Folders and files in root directory
 - **data/** - contains raw and processed datasets, inside folders callled raw and preprocessed respectively. The precocessed data is saved here from running the EDA juptyter notebook.
